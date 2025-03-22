@@ -1,60 +1,98 @@
-// 1. Global Styles
-// 2. Typography Styles
-// 3. Structural Styles
-// 4. Module Styles
-// 5. Component Styles
-// 6. Page Styles
+/*
+/ 1. Global Styles
+        Reset Styles: Start with a CSS reset or normalize to ensure consistency across browsers.
+        Base Styles: Set default styles for common elements like body, a, p, h1-h6, etc.
+        Variables: Define CSS variables for colors, fonts, and other reusable values.
+/ 2. Typography Styles
+        Font Families: Set font families for headings, paragraphs, and other text elements.
+        Font Sizes and Weights: Define sizes and weights for different text elements.
+        Line Heights and Letter Spacing: Adjust line heights and letter spacing for readability.
+/ 3. Structural Styles
+        Layout Containers: Use CSS Grid or Flexbox to define the main layout structure.
+        Spacing: Set margins and padding for layout consistency.
+        Alignment: Align elements using properties like align-items and justify-content.
+/ 4. Module Styles
+        Reusable Components: Style components that can be reused across the site, like buttons, cards, or forms.
+        State Styles: Define styles for different states (e.g., hover, active, focus).
+/ 5. Component Styles
+        Specific Components: Style specific components unique to the page, like a navigation bar or footer.
+        Nested Elements: Use nested selectors for styling elements within components.
+/ 6. Page Styles
+        Page-Specific Styles: Apply styles specific to individual pages or sections.
+        Media Queries: Use media queries to adjust styles for different screen sizes.
+*/
 
-// 1. Global Styles
 * {
-  font-family: Helvetica, sans-serif;
-  color: seashell;
-  background-color: black;
-  margin: 0;
-  padding: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    /* opacity: 0.9; */
+    text-align: center;
 }
 
-a {
-  text-decoration: underline;
+header {
+    position: fixed;
+    top: 0px;
+    height: 69px;
+    width: 100%;
+    /* background-color: black; */
+    border-bottom: 1px solid seashell;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
 }
 
-
-
-// 2. Typography Styles
-
-// 3. Structural Styles
-
-
-// 4. Module Styles
-.logo {
-  height: 50px;
-  margin: 10px;
+.logo img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    /* position: relative; */
 }
 
-#header {
-  height: 69px;
-  border-bottom: 1px solid seashell;
+.nav {
+    display: flex;
+    /* align-items: center; */
+}
+.nav a {
+    text-decoration: underline;
+    /* TODO add margin */
 }
 
-.background {
-  width: auto;
-  height: 700px;
+.hero-banner {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.section {
+.hero-banner img {
+    /* width: 100%; */
+    height: 700px;
+    z-index: 0;
 }
 
-img {
-  width: 300px;
-  height: 200px;
-  margin: 10px;
+.hero-content {
+    text-align: center;
+    width: 1200px;
+    z-index: 1;
 }
 
-.location {
-  width: auto;
-  height: 500px;
+.content-tea {
+    width: 1000px;
 }
 
-// 5. Component Styles
+.content-tea h2,
+h4 {
+    text-align: center;
+}
 
-// 6. Page Styles
+.content-tea div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-tea img {
+    width: 300px;
+    height: 200px;
+}
