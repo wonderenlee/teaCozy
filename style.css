@@ -164,4 +164,5 @@ footer .contact {
 footer .copyright {
     display: flex;
     justify-content: flex-start;
-    margin: 20
+    margin: 20px;
+}
