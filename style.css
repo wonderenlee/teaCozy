@@ -24,7 +24,7 @@
 
 * {
     font-family: Helvetica, sans-serif;
-    /* font-size: 22px; */
+    font-size: 22px;
     color: seashell;
     background-color: black;
     /* opacity: 0.9; */
@@ -32,8 +32,8 @@
 }
 
 body {
-    display: flex;
-    /* justify-content: center; */
+    /* display: flex;
+    justify-content: center; */
 }
 
 header {
@@ -41,30 +41,41 @@ header {
     top: 0px;
     height: 69px;
     width: 100%;
-    margin-left: -10px;
+    /* margin-left: -10px; */
     border-bottom: 1px solid seashell;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
+    z-index: 1;
+    /* display: infline-flex;
     align-items: center; */
-    /* margin: 100; */
-    /* padding: 0 10px; */
+    /* flex-basis: auto; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #logo-home {
-    height: auto;
+    /* height: auto; */
     max-height: 50px;
     max-width: auto;
     margin-left: 10px;
+    /* display: grid;
+    align-content: left; */
+    display: flex;
+    justify-content: left;
 }
 
 .nav {
-    display: flex;
     /* gap: 20px; */
+    /* display: grid;
+    align-content: right; */
+    display: flex;
+    /* align-items: center; */
+    justify-self: right;
+    margin-right: 10px;
 }
 
 .nav a {
     text-decoration: underline;
+    margin: 0 10px;
     /* color: red; color isn't showing TODO */
 }
 
