@@ -111,7 +111,9 @@ header {
 .container-main {
     display: flex;
     justify-content: center;
-    margin: 100px auto;
+    padding: 80px;
+    margin-top: 10px;
+    margin-bottom: 150px;
 }
 
 .container-content-tea {
@@ -144,39 +146,18 @@ header {
 .container-locations {
     height: 500px;
     width: 100%;
-    /* display: flex; */
-    /* align-content: center; */
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
     /* align-items: center; */
     /* margin-top: 100px; */
 }
 
-/* .content-location h2 {
-    position: absolute;
-    background-color: transparent;
-    z-index: 1; */
-    /* height: 500px;
-    width: auto; */
-    /* margin: 10px; */
-}
-.content-location img {
+.content-locations img {
     z-index: 0;
 }
 
 .container-location-content {
-    z-index: 1;
-}
-/* .content-location div { */
-    /* display: flex; */
-    /* position: absolute; */
-    justify-content: center;
-    background-color: black;
-    padding: 10px;
-    margin: 15px 20px;
-    opacity: 1;
-    /* align-items: center; */
-    /* margin-top: 100px; */
     z-index: 1;
 }
 
