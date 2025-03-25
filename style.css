@@ -146,7 +146,6 @@ header {
 .container-locations {
     height: 500px;
     width: auto;
-    /* margin-top: 50px; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -154,19 +153,37 @@ header {
 }
 
 .img-locations-background {
-    /* position: relative;
-    height: 500px; */
+    position: absolute;
     z-index: 0;
 }
 
 .container-location-content {
+    position: absolute;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     z-index: 1;
 }
 
+.header-location {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-color: transparent;
+    /* padding: 0px 0px; */
+}
+
+.address {
+    height: 100px;
+    width: 300px;
+    opacity: 1;
+    margin: 0 40px;
+}
+
 footer .contact {
+    margin-top: 200px;
     height: 200px;
     width: auto;
 }
