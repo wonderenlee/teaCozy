@@ -1,4 +1,4 @@
-/*
+/* Reference Notes
 / 1. Global Styles
         Reset Styles: Start with a CSS reset or normalize to ensure consistency across browsers.
         Base Styles: Set default styles for common elements like body, a, p, h1-h6, etc.
@@ -23,8 +23,8 @@
 */
 
 * {
-    font-family: Helvetica;
-    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    /* font-size: 22px; */
     color: seashell;
     background-color: black;
     /* opacity: 0.9; */
@@ -32,8 +32,8 @@
 }
 
 body {
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    /* justify-content: center; */
 }
 
 header {
@@ -46,7 +46,7 @@ header {
     z-index: 1000;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     /* margin: 100; */
     /* padding: 0 10px; */
 }
