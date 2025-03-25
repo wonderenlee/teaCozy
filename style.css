@@ -41,7 +41,7 @@ header {
     top: 0px;
     height: 69px;
     width: 100%;
-    /* margin-left: -10px; */
+    margin-left: -10px;
     border-bottom: 1px solid seashell;
     z-index: 1;
     /* display: infline-flex;
