@@ -79,20 +79,20 @@ header {
     /* color: red; color isn't showing TODO */
 }
 
-.banner-hero {
-    display: flex;
-    height: auto;
+.container-banner {
+    height: 700px;
     width: auto;
-    margin-top: 400px;
-    /* position: relative; */
-    align-items: center;
+    margin-top: 70px;
+    position: relative;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .banner-hero img {
-    height: 700px;
-    width: auto;
-    position: absolute;
+    /* height: 700px; */
+    /* width: 1000px; */
+    /* position: absolute; */
     z-index: 0;
 }
 
