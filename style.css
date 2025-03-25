@@ -145,19 +145,24 @@ header {
 
 .container-locations {
     height: 500px;
-    width: 100%;
+    width: auto;
+    /* margin-top: 50px; */
+    position: relative;
     display: flex;
+    justify-content: center;
     align-items: center;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* margin-top: 100px; */
 }
 
-.content-locations img {
+.img-locations-background {
+    /* position: relative;
+    height: 500px; */
     z-index: 0;
 }
 
 .container-location-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     z-index: 1;
 }
 
@@ -167,7 +172,7 @@ footer .contact {
 }
 
 footer .copyright {
-    display: flex;
+    /* display: flex; */
     /* justify-content: flex-start; */
     text-align: left;
     margin: 20px;
